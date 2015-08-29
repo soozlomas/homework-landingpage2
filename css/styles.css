@@ -1,0 +1,327 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* the * makes it apply to everything */
+
+* {
+  box-sizing: border-box;
+}
+
+/* the rest */
+
+body {
+color: #606161;
+font-family: 'Open Sans', Helvetica, sans-serif;
+font-size: 16px;
+}
+
+#wrapper {
+	width: 600px;
+	height: 1250px;
+	margin: 0 auto;
+}
+
+/* logo top & bottom */
+
+.toplogocontainer {
+	position: relative;
+  top: 18.5px;
+  left: 56px;
+	display: inline;
+}
+
+.logotext {
+	font-size: 24px;
+	letter-spacing: 0.5px;
+}
+
+.bottomlogocontainer {
+	text-align: center;
+}
+
+/* header */
+
+header {
+  height:60.5px;
+	background-color: #033048;
+}
+
+nav {
+	padding-top: 25px;
+	padding-right: 56px;
+	padding-bottom: 23px;
+	float: right;
+}
+
+ul#navbar li {
+	display:inline;
+	padding: 0.5rem;
+}
+
+/* main section */
+
+main {
+  height:1018px;
+  background-color: #f0efef;
+}
+
+#maincolleft {
+	width: 422px;
+	padding-top:48px;
+	padding-left: 56px;
+	padding-right: 20px;
+	float: left;
+}
+
+#maincolright {
+	width: 178px;
+	padding-top:35px;
+	padding-right: 56px;
+	float: left;
+}
+
+/* blog post section */
+
+.blogpost {
+	padding-top: 23.5px;
+	border-bottom: 1px solid #033048;
+}
+
+.paddingbottom {
+	padding-bottom: 18px;
+}
+
+article:first-child {
+	padding-top: 0px;
+}
+
+.readmore {
+	text-align: right;
+}
+
+/* aside section */
+
+aside {
+	padding-bottom: 29px;
+}
+
+.about {
+	padding-bottom: 0px;
+}
+
+/* ad unit */
+
+.adunit {
+	height: 273px;
+	weight: 120px;
+	background-color: #ffffff;
+	padding: 14px;
+	text-align: center;
+}
+
+/* call to action section */
+
+#calltoaction {
+  height:59.5px;
+  background-color: #f9e42e;
+	padding-top: 14.5px;
+	padding-left: 223.5px;
+}
+
+.signupnow {
+	height:30.5px;
+	width: 153px;
+	padding: 8px;
+	background-color: #033048;
+}
+
+/* footer */
+
+footer {
+  height:174.5px;
+  background-color: #121212;
+	padding-top: 34.5px;
+}
+
+.copyright {
+	font-size: 9px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 32.5px;
+	margin-bottom: 23px;
+}
+
+#socialmedia {
+	height: 18.5px;
+	margin-left: 254px;
+	margin-right: 254px;
+}
+
+
+ul#socialmedia li {
+	display:inline;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+/* text styles */
+
+p {
+	margin-bottom: 30px;
+}
+
+article p:first-of-type::first-letter {
+	font-size: 2rem;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+	margin-bottom: 18px;
+	line-height: 130%;
+}
+
+h3 {
+	padding-bottom: 15px;
+}
+
+.lineheight {
+	line-height: 150%;
+}
+
+.weight800 {
+	font-weight: 800;
+}
+
+.weight600 {
+	font-weight: 600;
+}
+
+.bluetext {
+	color: #033048;
+}
+
+.yellowtext {
+	color: #f9e42e;
+}
+
+.whitetext {
+	color: #ffffff;
+}
+
+.size15px {
+	font-size: 0.9375rem;
+}
+
+.size14px {
+	font-size: 0.8125rem
+}
+
+/* link styles */
+
+#navbar a:link {
+    color: #f9e42e;
+}
+
+#navbar a:visited {
+    color: #f9e42e
+}
+
+#navbar a:hover {
+    color: #ffffff;
+}
+
+#navbar a:active {
+	color: #ffffff;
+}
+
+#secondnav a:link {
+    color: #033048;
+}
+
+#secondnav a:visited {
+    color: #033048;
+}
+
+#secondnav a:hover {
+    color: #8a2be2
+}
+
+#secondnav a:active {
+    color: #8a2be2;
+}
+
+.signupnow a:link {
+    color: #ffffff;
+}
+
+.signupnow a:visited {
+    color: #ffffff;
+}
+
+.signupnow a:hover {
+    color: #ffffff;
+}
+
+.signupnow a:active {
+    color: #ffffff;
+}
+
+/* buttons */
+
+.actionbutton {
+	border-radius: 5px;
+	font-size: 14px;
+	color: #033048;
+	text-align: center;
+}
