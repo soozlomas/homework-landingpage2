@@ -78,7 +78,7 @@ font-size: 16px;
 }
 
 .logotext {
-	font-size: 24px;
+	font-size: 1.5rem;
 	letter-spacing: 0.5px;
 }
 
@@ -102,7 +102,7 @@ nav {
 
 ul#navbar li {
 	display:inline;
-	padding: 0.5rem;
+	padding: 8px;
 }
 
 /* main section */
@@ -142,7 +142,7 @@ article:first-child {
 	padding-top: 0px;
 }
 
-.readmore {
+.moretext {
 	text-align: right;
 }
 
@@ -168,18 +168,20 @@ aside {
 
 /* call to action section */
 
-#calltoaction {
+.calltoaction {
   height:59.5px;
   background-color: #f9e42e;
 	padding-top: 14.5px;
 	padding-left: 223.5px;
 }
 
-.signupnow {
+.actionbutton {
 	height:30.5px;
 	width: 153px;
 	padding: 8px;
 	background-color: #033048;
+	border-radius: 5px;
+	text-align: center;
 }
 
 /* footer */
@@ -191,7 +193,7 @@ footer {
 }
 
 .copyright {
-	font-size: 9px;
+	font-size: 0.5625rem;
 	color: #ffffff;
 	text-align: center;
 	margin-top: 32.5px;
@@ -269,59 +271,18 @@ h3 {
 
 /* link styles */
 
-#navbar a:link {
+#navbar a:link, #navbar a:visited {
     color: #f9e42e;
 }
 
-#navbar a:visited {
-    color: #f9e42e
-}
-
-#navbar a:hover {
+#navbar a:hover, #navbar a:active, .actionbutton a:link, .actionbutton a:visited, .signupnow a:hover, .signupnow a:active {
     color: #ffffff;
 }
 
-#navbar a:active {
-	color: #ffffff;
-}
-
-#secondnav a:link {
+#secondnav a:link, #secondnav a:visited {
     color: #033048;
 }
 
-#secondnav a:visited {
-    color: #033048;
-}
-
-#secondnav a:hover {
+#secondnav a:hover, #secondnav a:active {
     color: #8a2be2
-}
-
-#secondnav a:active {
-    color: #8a2be2;
-}
-
-.signupnow a:link {
-    color: #ffffff;
-}
-
-.signupnow a:visited {
-    color: #ffffff;
-}
-
-.signupnow a:hover {
-    color: #ffffff;
-}
-
-.signupnow a:active {
-    color: #ffffff;
-}
-
-/* buttons */
-
-.actionbutton {
-	border-radius: 5px;
-	font-size: 14px;
-	color: #033048;
-	text-align: center;
 }
